@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Outfir';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+html{
+margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #f8e4dc;
+    height: 100%;
+    width: 100%;
+font-family: 'Outfir', sans-serif;
+    font-size: 16px;
+}
+#omelette{
+    display: flex;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+p{
+    padding: 0 0 0 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px 40px 40px 40px;
+    margin: 5% 25% 0 25%;
+    max-width: 650px;
+
+}
+main h1{
+    font-family: YoungSerif;
+}
+main h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+main h2{
+    color: hsl(14, 45%, 36%);
+    font-family: YoungSerif;
+}
+section{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+padding: 2px 15px 10px 25px;
+}
+
+hr{
+  border: 1px solid #c3c3c3;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+ul{
+    margin: 0 0 0 0;
+}
+ul li {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 20px;
+}
+@media only screen and (max-width: 450px) {
+    #omelette {
+        position: relative;
+        width: 100vw;
+        margin: 0 0px 0px 0px;
+        border-radius: 0;
+    }
+
+    main {
+        width: auto;
+        margin: 0;
+        border-radius: 0;
+        padding: 0 0px 0 0px;
+    }
+    .recipe{
+        padding: 0 20px 0 20px;
+    }
+}
+table{
+    width: 100%;
+}
+
+table tr{
+    display: flex;
+    width: 100%;
+    padding: 8px 0% 8px 0;
+    justify-content: start;
+    border-bottom: 1px solid #bfbfbf;
+
+}
+
+
+td.left{
+    text-align: right;
+    padding: 0 0% 0 40%;
+    color: hsl(14, 45%, 36%);;
+    font-weight: bold;
+}
+td.right{
+    padding: 0 0 0 6%;
+    text-align: left;
+    width: 10%;
+}
+tr.final{
+}
+
