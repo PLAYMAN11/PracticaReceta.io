@@ -46,13 +46,18 @@ main{
 main h1{
     font-family: YoungSerif;
 }
-main h3{
-    color: hsl(332, 51%, 32%);
-    font-weight: 700;
-}
+
 main h2{
     color: hsl(14, 45%, 36%);
     font-family: YoungSerif;
+}
+
+main h2.div{
+    font-size: 17px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-family: Outfir;
+
 }
 section{
     background-color: hsl(330, 100%, 98%);
